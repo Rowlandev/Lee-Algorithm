@@ -13,12 +13,12 @@ import java.util.Arrays;
 import static java.lang.Math.abs;
 
 class Main {
-	private static final int n = 3;
+	private static final int n = 1000;
 	static int[][] maze = getMaze(n);
 	static int startX = 0;
 	static int startY = 0;
-	static int destinationX = 1;
-	static int destinationY = 2;
+	static int destinationX = 500;
+	static int destinationY = 500;
 	static int minDistance;
 
 	// Declare possible direction movements for a cell [left down, up, right]
